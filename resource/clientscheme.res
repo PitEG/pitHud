@@ -17,7 +17,12 @@ Scheme
 
 	//////////////////////// COLORS ///////////////////////////
 	Colors
-	{
+	{	
+		//Custom Colors
+		"healthNormal"			"170 230 230 255"
+		"healthLow"				"255 100 50 255"
+	
+	
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -2885,8 +2890,51 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		
+		CoolveticaRg40
+		{
+			"1"
+			{
+				"name"		"CoolveticaRg-Regular"
+				"tall"		"40"
+				"antialias" "1"
+			}
+		}
+		
+		CoolveticaRg54
+		{
+			"1"
+			{
+				"name"		"CoolveticaRg-Regular"
+				"tall"		"54"
+				"antialias" "1"
+			}
+		}
+		
+		Biko12
+		{
+			"1"
+			{
+				"name"		"Biko"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		
+		Sansation14
+		{
+			"1"
+			{
+				"name"		"Sansation Regular"
+				"tall"		"14"
+				"antialias" "1"
+			}
+		}
 	}
+	
+	//Custom Fonts up there ^^^^^
+	//Biko, CoolveticaRg-Regular, Sansation
+	
 
 	//
 	//////////////////// BORDERS //////////////////////////////
@@ -5290,5 +5338,19 @@ Scheme
 			}
 		}			
 		"7" "resource/ocra.ttf"
+		{
+			"font" "resource/fonts/coolvetica rg.ttf"
+			"name" "CoolveticaRg-Regular"
+		}
+		"8"
+		{
+			"font" "resource/fonts/Sansation_Regular.ttf"
+			"name" "Sansation Regular"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Biko_Regular.otf"
+			"font" "Biko"
+		}
 	}
 }
