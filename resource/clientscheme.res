@@ -19,8 +19,10 @@ Scheme
 	Colors
 	{	
 		//Custom Colors
-		"healthNormal"			"170 230 230 255"
-		"healthLow"				"255 100 50 255"
+		"healthNormal"			"240 240 240 255"
+		"healthLow"				"255 70 30 255"
+		"healthHigh"			"0 240 240 255"
+		"ammoNormal"			"240 240 240 255"
 	
 	
 		// base colors
@@ -2888,6 +2890,16 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+		
+		CoolveticaRg34
+		{
+			"1"
+			{
+				"name"		"CoolveticaRg-Regular"
+				"tall"		"34"
+				"antialias" "1"
 			}
 		}
 		
