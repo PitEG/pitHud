@@ -1,0 +1,13 @@
+Add preset Colors
+
+Fonts
+	chaa
+
+Elements
+	Re adjust Bow/Demo Charge meter
+	Adjust item effect meter
+
+Menu
+
+Scoreboard
+
